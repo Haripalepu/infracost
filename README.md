@@ -89,6 +89,7 @@ databases = {
 ```
 
 ---
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
@@ -148,6 +149,9 @@ databases = {
 |------|-------------|
 | <a name="output_endpoint"></a> [endpoint](#output\_endpoint) | Aurora RDS PostreSQL instance ID |
 <!-- END_TF_DOCS -->
+
+---
+
 ## Notes
 
 - Passwords generated automatically are stored under:
@@ -158,5 +162,3 @@ databases = {
 - Use a jump box, bastion host, or VPN (e.g. Client VPN or EKS pod with psql) to access them.
 
 ---
-
-
